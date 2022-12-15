@@ -14,13 +14,13 @@ const Agents = () => {
   useEffect(() => {
     axios
       .get("https://valorant-api.com/v1/agents?isPlayableCharacter=true")
-      .then((res) => setData(res.data));
+      .then((res: any) => setData(res.data));
   }, []);
 
   useEffect(() => {
     axios
       .get(`https://valorant-api.com/v1/agents/${agentUrl}`)
-      .then((res) => setAgentData(res.data));
+      .then((res: any) => setAgentData(res.data));
   }, [agentUrl]);
 
   console.log("agentData", agentData);
