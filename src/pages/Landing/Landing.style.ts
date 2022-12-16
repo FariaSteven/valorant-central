@@ -26,7 +26,7 @@ export const VideoButton = styled.button`
 `;
 
 export const NewsContainer = styled.div`
-  padding: 0px 300px;
+  padding: 50px 300px;
 `;
 
 export const NewsTitle = styled.h1`

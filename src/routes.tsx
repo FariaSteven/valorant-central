@@ -5,6 +5,7 @@ import Agents from "./pages/Agents/Agents";
 import Landing from "./pages/Landing/Landing";
 
 import "./global/globalStyles.css";
+import Footer from "./components/Footer/Footer";
 
 const Routes = () => {
   return (
@@ -14,6 +15,7 @@ const Routes = () => {
         <Route path="/" element={<Landing/>} />
         <Route path="/agentes" element={<Agents/>} />
       </RoutesWrapper>
+      <Footer/>
     </>
   )
 }
