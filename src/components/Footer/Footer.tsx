@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import valorantLogo from "../../assets/fullLogo.png";
 
-import facebookIcon from "../../assets/facebook.svg";
-import tiktokIcon from "../../assets/tiktok.svg";
-import instagramIcon from "../../assets/instagram.svg";
-import twitterIcon from "../../assets/twitter.svg";
+import facebookIcon from "../../assets/svg/facebook.svg";
+import tiktokIcon from "../../assets/svg/tiktok.svg";
+import instagramIcon from "../../assets/svg/instagram.svg";
+import twitterIcon from "../../assets/svg/twitter.svg";
 
 import * as S from "./Footer.style";
 

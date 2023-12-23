@@ -1,4 +1,4 @@
-import bannerVideo from "../../assets/valorant-banner.mp4";
+import bannerVideo from "../../assets/videos/valorant-banner.mp4";
 import news1 from "../../assets/news1.jpeg";
 import news2 from "../../assets/news2.jpeg";
 import news3 from "../../assets/news3.jpeg";

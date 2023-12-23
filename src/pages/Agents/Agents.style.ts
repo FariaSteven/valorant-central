@@ -14,7 +14,7 @@ export const AgentsContainer = styled.div`
 
 export const AgentsWrapper = styled.div`
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(12                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               , 1fr);
   gap: 10px;
   padding: 137px 0 0 0;
   margin: 137px 0 0 0;
@@ -120,10 +120,17 @@ export const AgentDetailsAbilitiesCard = styled.div`
   border: 1px solid #ffffff40;
   border-radius: 10px;
   backdrop-filter: blur(100px);
+  padding: 10px;
+  cursor: pointer;
+ 
 `;
 
 export const AgentDetailsAbilitiesImg = styled.img`
   width: 80px;
+  &:hover {
+    transform: scale(0.90);
+    backdrop-filter: blur(0);
+  }
 `;
 
 export const AgentDetailsAbilitiesName = styled.p`

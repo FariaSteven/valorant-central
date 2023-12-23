@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import valorantLogo from "../../assets/valorantLogo.svg";
+import valorantLogo from "../../assets/svg/valorantLogo.svg";
 import * as S from "./Header.style";
 
 const leftList = [
