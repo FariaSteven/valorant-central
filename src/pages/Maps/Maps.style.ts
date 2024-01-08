@@ -13,19 +13,27 @@ export const MapsContainer = styled.div`
 
 export const MapsWrapper = styled.div`
     width: 60%;
+    /* clip-path: polygon(100% 1%, 100% 100%, 5% 100%, 0 85%, 0 0); */
     /* padding-top: 200px; */
 `;
 
 export const MapsInfo = styled.div`
-    max-width: 500px;
+    max-width:  350px;
     z-index: 1;
-    background-color: #ffffff37;
+    background-color: #aaaaaa99;
     position: absolute;
-    bottom: 198px;
-    padding: 21px;
+    bottom: 150px;
+    padding: 30px 20px;
     right: 381px;
-    backdrop-filter: blur(0.5rem);
+    backdrop-filter: blur(0.2rem);
+    clip-path: polygon(100% 1%, 100% 100%, 10% 100%, 0 85%, 0 0);
+    > span {
+        color: #000111;
+        font-family: fantasy;
+    }
     > h2 {
+        font-family: ValorantFont;
         color: black;
+        margin-bottom: 10px;
     }
 `;

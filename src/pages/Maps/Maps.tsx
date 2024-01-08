@@ -17,8 +17,6 @@ SwiperCore.use([Controller, Pagination, ThumbsPagination]);
 
 const Maps = () => {
   const [data, setData] = useState<any[]>([]);
-  // const [filteredData, setFilteredData] = useState<any[]>([]);
-  const [mapUrl, setMapUrl] = useState<string>('7eaecc1b-4337-bbf6-6ab9-04b8f06b3319');
   const [swiper, setSwiper] = useState<any>(0);
   
 
