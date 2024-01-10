@@ -7,6 +7,7 @@ import Landing from "./pages/Landing/Landing";
 import "./global/globalStyles.css";
 import Footer from "./components/Footer/Footer";
 import Maps from "./pages/Maps/Maps";
+import Equips from "./pages/Equips/Equips";
 
 const Routes = () => {
   return (
@@ -16,6 +17,7 @@ const Routes = () => {
         <Route path="/" element={<Landing/>} />
         <Route path="/agentes" element={<Agents/>} />
         <Route path="/mapas" element={<Maps/>} />
+        <Route path="/equipamentos" element={<Equips/>} />
       </RoutesWrapper>
       <Footer/>
     </>

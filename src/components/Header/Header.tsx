@@ -13,7 +13,7 @@ const leftList = [
   },
   {
     name: "Equip",
-    link: "/equipamento",
+    link: "/equipamentos",
   },
 ];
 const rightList = [
